@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #707070;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #FCF6F6; /* Couleur de fond du header, ajustez selon vos besoins */
+    width: 100%;
+    justify-content: start;
+  }
+  /* Style pour le logo */
+  .logo {
+    width: 70px; /* Ajustez la largeur du logo selon vos besoins */
+    margin-right: 20px; /* Espace entre le logo et les liens de navigation */
+  }
+  /* Style pour la barre de navigation */
+  .navbar {
+    display: flex;
+    flex-grow: 1; /* La navbar prend tout l'espace horizontal disponible */
+    height: 70px;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .site-name {
+    margin-left: 10px; /* ajustez selon l'espace que vous voulez entre le logo et le texte */
+    font-weight: bold;
+    font-size: 24px; /* ajustez selon la taille désirée pour le nom du site */
+    color:black ;
+  }
+  
+  /* Style pour les liens */
+  .navbar a {
+    color: black; /* Couleur du texte des liens */
+    padding: 10px 15px; /* Espacement autour du texte des liens */
+    text-decoration: none; /* Pas de soulignement pour les liens */
+    font-weight: bold; /* Rendre le texte des liens en gras */
+    margin-right: 10px; /* Espace entre les liens */
+    font-size: 20px;
+  }
+  /* Style pour le lien actif */
+  .navbar a.active {
+    color: #4CAF50; /* Couleur du texte du lien actif */
+  }
+  /* Ajoutez ceci si vous voulez changer le style des liens au survol */
+  .navbar a:hover {
+    background-color: #555; /* Fond des liens au survol */
+    color: #ddd; /* Texte des liens au survol */
+  }
+  
+  /* Style pour le lien actif */
+  .navbar a.active {
+    color: #4CAF50; /* Couleur du texte du lien actif */
+  }
+  /* Ajoutez ceci si vous voulez changer le style des liens au survol */
+  .navbar a:hover {
+    background-color: #555; /* Fond des liens au survol */
+    color: #ddd; /* Texte des liens au survol */
+  }
+  
+  .push-right {
+    margin-left: auto;
+  }
+
+  .form-title {
+    text-align: center; /* Pour centrer le titre sur la page */
+    margin: 20px 0; /* Ajoute de l'espace au-dessus et en dessous du titre */
+    color: white; /* La couleur du texte, à ajuster selon votre palette de couleurs */
+    font-size: 2rem; /* La taille du texte */
+    /* Autres styles que vous souhaitez ajouter pour correspondre au design de votre site */
+}
+
+
+
+/* Style pour agrandir et centrer le titre h2 */
+h2 {
+    text-align: center; /* Centrer le titre */
+    font-size: 24px; /* Augmenter la taille de la police */
+    margin-bottom: 30px; /* Espace sous le titre */
+    
+}
+
+.input-group {
+    display: flex;
+    justify-content: center; /* Centrer le groupe d'entrées */
+    gap: 10px; /* Espacer les éléments */
+    margin-bottom: 20px; /* Espace sous le groupe */
+    margin-top: 60px;
+}
+
+.form-input {
+    padding: 10px; /* Plus de padding pour agrandir les cases */
+    border-radius: 5px; /* Bordures légèrement arrondies */
+    border: 1px solid #ccc; /* Bordure subtile */
+    width: 200px; /* Définir une largeur fixe pour chaque champ */
+}
+
+/* Style du formulaire pour centrer les éléments */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style pour le champ de message */
+textarea {
+    width: 45%; /* Ajuster selon les besoins */
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* Espace sous le champ de message */
+}
+
+/* Style pour le bouton Envoyer */
+input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #006FE6;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Légère variation au survol */
+}
+
+
+
+
+
+
+
+
+  footer {
+    background-color: #FCF6F6;
+    color: #666;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .blog-container {
+        max-width: 95%;
+    }
+  }
+  

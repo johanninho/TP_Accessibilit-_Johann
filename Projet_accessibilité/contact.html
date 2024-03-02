@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Blog</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo.jpg" alt="Logo" class="logo">
+        <span class="site-name">LE BLOG</span>
+        <div class="navbar">
+            <a href="index.html" class="push-right">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Connexion</a>
+            <a href="signup.html">Inscription</a>
+        </div>
+    </header>
+    
+    <h2 class="form-title">CONTACT</h2>
+
+    <form action="/Contact" method="post">
+        <div class="input-group">
+            <input class="form-input" type="text" id="name" name="name" placeholder="Nom">  
+            <input class="form-input" type="email" id="email" name="email" placeholder="Email">
+        </div>
+    
+        <label for="message"></label><br>
+        <textarea id="message" name="message" placeholder="Message"></textarea><br>
+    
+        <input type="submit" value="Envoyer">
+    </form>
+
+
+    
+    
+    <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2024 Le Blog. Tous droits réservés.</p>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
